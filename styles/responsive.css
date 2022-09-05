@@ -1,0 +1,144 @@
+
+/* smart-phones and mobile devices */
+@media screen and (max-width:768px) {
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    .header{
+        width: 100%;
+        height: auto;
+    }
+    .inner-header{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .nav{
+        display: none;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hero-box-info{
+        width: 92%;
+        text-align: center;
+        /* padding: 0 4% 4%; */
+    }
+    .hero-box-info h3{
+        font-size: 40px;
+    }
+    .hero-box-img img{
+        width: 100%;
+    }
+    .hero-box-img{
+        width: 92%;
+        padding: 4%;
+    }
+    .player-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .player-details{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .player{
+        width: 92%;
+        margin: 0 auto;
+    }
+    .highlights-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .highlights-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .highlights-info{
+        width: 92%;
+        margin-bottom: 30px;
+    }
+    .highlights-images{
+        width: 92%;
+    }
+    .news-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .news-details{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .news {
+        display: grid;
+        grid-template-columns:1fr;
+        grid-column-gap: 30px;
+    }
+    .footer-section{
+        margin-top: 60px;
+    }
+    .footer-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+/* Tablet-phones and mediam devices */
+@media screen and (min-width:769px) and (max-width:1200px){
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    .header{
+        width: 100%;
+        height: auto;
+    }
+    .inner-header{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .hero-box-info h3{
+        font-size: 40px;
+    }
+    .hero-box-img img{
+        width: 100%;
+    }
+    .hero-box-img{
+        width: 92%;
+        padding: 4%;
+    }
+    .player-details{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 30px;
+    }
+    .highlights-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .highlights-details{
+        display: flex;
+        flex-direction: column;
+    }
+    .highlights-info{
+        width: 92%;
+        margin-bottom: 30px;
+    }
+    .highlights-images{
+        width: 92%;
+    }
+    .news {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+    }
+
+}
